@@ -5,4 +5,55 @@
 /* common styles */
 body{
   font-family: 'Poppins', sans-serif;
+  margin:0px;
+  padding:0px;
+  background-color:#F3F1FF;
+
+}
+.container{
+  background-color:#FFFFFF;
+  border-radius:5px;
+ 
+  width: 870px;
+  height: 760px;
+ margin-top:36px;
+   
+
+}
+main{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items:center;
+}
+/* styling the navbar */
+nav{
+  background-color: #562EFF;
+
+  display:flex;
+  justify-content: space-between;
+  padding-left:285px;
+  padding-right:289px;
+  padding-top:26px;
+  padding-bottom:17px;
+}
+.idea{
+  padding-left:16px;
+  font-size: 24px;
+}
+.logo{
+  width: 40.42px;
+height: 51px;
+}
+nav span a{
+  text-decoration:none;
+  color:white;
+}
+.profile{
+  width: 51px;
+height: 51px;
+}
+.right-side{
+  font-size: 16px;
+  padding-right:35px;
 }
