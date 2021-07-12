@@ -6,3 +6,78 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+.course-container{
+  width: 870px;
+height: 400px;
+padding-bottom:30px;
+}
+/* courses styling */
+.courses{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+ 
+
+ 
+}
+.course{
+  margin-left:28px;
+  margin-bottom:30px;
+  padding-top:13px;
+  padding-left:11px;
+  padding-right:11px;
+  border:2px solid;
+  border-color:whitesmoke;
+  border-radius:5px;
+  box-shadow:1px 1px 1px 2px whitesmoke;
+}
+.course-title{
+  
+  font-size:21px;
+
+}
+.course-instructor{
+  color:
+  #ED6B4F;
+}
+.styles{
+  
+  display:flex;
+}
+.course-image{
+  width: 224px;
+height: 104px;
+}
+.fa-star{
+  height:12px;
+  width:12px;
+  margin-left:3.24px;
+}
+.filled{
+  color:
+  #FFC014;
+}
+.empty{
+  
+ color:
+ #AEAEAE;
+}
+.rating{
+  font-size:15px;
+  color:#A2A2A2;
+  margin-left:11px;
+}
+.duration{
+  margin-left:25px;
+   color:
+   #FF4A60;
+ 
+   background-color: #FFE4E8;
+   border-radius:15px;
+}
+.fa-clock{
+  padding-left:5px;
+}
+.hour{
+  padding-right:6.6px;
+}
